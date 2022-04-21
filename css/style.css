@@ -1,0 +1,25 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header{
+  height: 10vh;
+}
+
+main{
+  height: 80vh;
+  background-color: green;
+}
+
+.number-box{
+  width: 75px;
+  height: 75px;
+  border: 2px solid white;
+  color: white;
+}
+
+footer{
+  height: 10vh;
+}
