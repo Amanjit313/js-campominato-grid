@@ -13,11 +13,38 @@ main{
   background-color: green;
 }
 
+.contenitore{
+  width: 500px;
+  height: 500px;
+  flex-wrap: wrap;
+}
+
 .number-box{
-  width: 75px;
-  height: 75px;
   border: 2px solid white;
   color: white;
+}
+
+.cella100{
+  width: calc(100% / 10);
+  height: calc(100% / 10);
+}
+
+.cella81{
+  width: calc(100% / 9);
+  height: calc(100% / 9);
+}
+
+.cella49{
+  width: calc(100% / 7);
+  height: calc(100% / 7);
+}
+
+.number-box span{
+  display: none;
+}
+
+.number-box.clicked span{
+  display: none;
 }
 
 footer{
