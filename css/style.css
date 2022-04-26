@@ -16,7 +16,9 @@ main{
 .contenitore{
   width: 500px;
   height: 500px;
+  display: flex;
   flex-wrap: wrap;
+  align-content: flex-start;
 }
 
 .number-box{
@@ -27,24 +29,30 @@ main{
 .cella100{
   width: calc(100% / 10);
   height: calc(100% / 10);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .cella81{
   width: calc(100% / 9);
   height: calc(100% / 9);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .cella49{
   width: calc(100% / 7);
   height: calc(100% / 7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.number-box span{
-  display: none;
-}
-
-.number-box.clicked span{
-  display: none;
+.clicked{
+  background-color: rgba(0, 255, 255, 0.587);
+  color: white;
 }
 
 footer{
